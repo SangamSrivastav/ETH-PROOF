@@ -14,13 +14,13 @@ Contract Details:
 
   Functions used in the code:
   
-  1. mint(address _add, uint _value)
-  The mint function allows the creation of new tokens. The function increases the total supply and credits the specified address with the minted tokens.
+  1. mint(address _add, uint _value):
+  The mint function allows the creation of new tokens. The function increases the total supply and increase the specified address with the minted tokens.
   
   Parameters:
 
-   _add: The address to receive the newly minted tokens.
-  _value: The number of tokens to mint.
+  1.  _add: The address to receive the newly minted tokens.
+  2.  _value: The number of tokens to mint.
 
   2. burn(address _add, uint _value)
      The burn function allows the destruction of tokens. The function decreases the total supply and deducts the specified address by the burnt tokens, provided the address has enough balance.
