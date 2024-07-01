@@ -12,9 +12,15 @@ Contract Details:
   
   Total Supply: Dynamic, starting at 0 and increasing with minting.
 
+  Contract Details
+
+- **Token Name:** ETHEREUM
+- **Token Symbol:** ETH
+- **Total Supply:** Managed by mint and burn functions
+
   Functions used in the code:
   
-  1. mint(address _add, uint _value):
+1. mint(address _add, uint _value):
   The mint function allows the creation of new tokens. The function increases the total supply and increase the specified address with the minted tokens.
   
   Parameters:
@@ -24,7 +30,9 @@ Contract Details:
   ii. _value: The number of tokens to mint.
 
   
-  2. burn(address _add, uint _value)
+  
+  
+2. burn(address _add, uint _value)
   The burn function allows the destruction of tokens. The function decreases the total supply and deducts the specified address by the burnt tokens, provided the address has   enough balance.
 
    Parameters:
@@ -33,9 +41,12 @@ Contract Details:
   
   ii. _value: The number of tokens to burn.
 
+
  Public Variables:
 
    1. tokenName: The name of the token.
    2. tokenAbbrv: The abbreviation of the token.
    3. totalSupply: The total supply of the token.
    4. balances: A mapping that stores the token balance of each address.
+
+ 
