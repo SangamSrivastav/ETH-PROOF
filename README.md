@@ -12,11 +12,6 @@ Contract Details:
   
   Total Supply: Dynamic, starting at 0 and increasing with minting.
 
-  Contract Details
-
-- **Token Name:** ETHEREUM
-- **Token Symbol:** ETH
-- **Total Supply:** Managed by mint and burn functions
 
   Functions used in the code:
   
