@@ -5,7 +5,9 @@ The token is named "ETHEREUM" with the abbreviation "ETH".
 Contract Details:
 
   Token Name: ETHEREUM
+  
   Token Abbreviation: ETH
+  
   Total Supply: Dynamic, starting at 0 and increasing with minting.
 
   Functions:
