@@ -1,3 +1,5 @@
+Description:
+
 MyToken is a simple Ethereum-based token implemented as a smart contract using Solidity. 
 It features two functions namely mint and burn to manage the total supply of the token.
 The token is named "ETHEREUM" with the abbreviation "ETH".
@@ -10,7 +12,7 @@ Contract Details:
   
   Total Supply: Dynamic, starting at 0 and increasing with minting.
 
-  Functions:
+  Functions used in the code:
   
   1. mint(address _add, uint _value)
   The mint function allows the creation of new tokens. The function increases the total supply and credits the specified address with the minted tokens.
