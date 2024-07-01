@@ -20,6 +20,7 @@ Contract Details:
   Parameters:
 
   i.  _add: The address to receive the newly minted tokens.
+  
   ii. _value: The number of tokens to mint.
 
   
@@ -29,6 +30,7 @@ Contract Details:
    Parameters:
 
   i.  _add: The address from which the tokens will be burnt.
+  
   ii. _value: The number of tokens to burn.
 
  Public Variables:
